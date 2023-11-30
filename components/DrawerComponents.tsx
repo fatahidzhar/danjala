@@ -1,12 +1,10 @@
 "use client"
 
 import Link from "next/link";
-import { useRef, useState } from "react";
+import { useState } from "react";
 import { HiMenuAlt4 } from "react-icons/hi";
-import { FaArrowRightLong } from "react-icons/fa6";
 
 export const DrawerComponents = () => {
-    const drawer = useRef(null);
     const [isActive, setIsActive] = useState(false);
     const menu = () => setIsActive(!isActive)
     return (
@@ -25,7 +23,6 @@ export const DrawerComponents = () => {
                 </button>
             </div>
             <div
-                ref={drawer}
                 id="drawer-right-example"
                 className={`fixed top-0 right-0 z-40 h-screen p-4 overflow-y-auto transition-transform ${isActive ? '' : 'translate-x-full'} backdrop-blur-md bg-white/30 w-80 dark:bg-gray-800`}
                 tabIndex={-1}

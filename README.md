@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Danjala Project
 
-First, run the development server:
+Nama Danjala berasal dari kombinasi dua kata: "Danja" dan "Jala". "Danja" adalah kata dalam bahasa Hausa yang berarti "ide" atau "inspirasi", sedangkan "Jala" adalah kata dalam bahasa Sansekerta yang berarti "jaringan" atau "jaring". Oleh karena itu, nama Danjala membangkitkan konsep jaringan ide atau jaringan inspirasi. Nama ini sangat relevan dengan deskripsi bisnis yang melibatkan undangan digital, desain situs web, dan otomatisasi, yang semuanya membutuhkan jaringan ide dan inspirasi teknologi. Selain itu, nama Danjala memiliki bunyi yang modern dan menarik yang kemungkinan besar akan menarik bagi pelanggan di industri teknologi.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Service
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Template Website
+- Hosting
+- Undangan Digital
+- Optimasi Website
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Soon
 
-## Learn More
+- Design Template Website
 
-To learn more about Next.js, take a look at the following resources:
+- Design Template Hosting
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Design Template Undangan Digital
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Design Template Optimasi Website
 
-## Deploy on Vercel
+- Design Template Dashboard
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Multiple Role User
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Design Database
+
+- Design Table Purchase
+
+
+## Tech Stack
+
+**Client:** NextJs, TailwindCSS, Flowbite
+
+**Server:** Node, PrismaJs
+
+## Focus
+
+**Login:** Auth API, Form Input, Midware, Soon
+
+**Register:** Auth API, Form Input, POST Data, Soon
+
+**Dashbiard:** Soon
