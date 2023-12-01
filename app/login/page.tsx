@@ -1,9 +1,10 @@
 import LoginComponents from "@/components/LoginComponents"
 
-
 const Login = () => {
     return (
-        <LoginComponents />
+        <section>
+            <LoginComponents />
+        </section>
     )
 }
 

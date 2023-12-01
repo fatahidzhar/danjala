@@ -34,12 +34,12 @@ Nama Danjala berasal dari kombinasi dua kata: "Danja" dan "Jala". "Danja" adalah
 
 **Client:** NextJs, TailwindCSS, Flowbite
 
-**Server:** Node, PrismaJs
+**Server:** Node, Laravel Sanctum
 
 ## Focus
 
-**Login:** Auth API, Form Input, Midware, Soon
+**Login:** Auth API 'proses', Form Input 'proses', Midware, Soon
 
-**Register:** Auth API, Form Input, POST Data, Soon
+**Register:** Auth API 'proses', Form Input 'proses', POST Data, Soon
 
 **Dashbiard:** Soon
