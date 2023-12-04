@@ -1,4 +1,5 @@
-import SignUpComponents from '@/components/SignUpComponents'
+import { SignUpComponents } from '@/components/client/SignUpComponents'
+
 import React from 'react'
 
 const Register = () => {

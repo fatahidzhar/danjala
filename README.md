@@ -1,4 +1,3 @@
-
 # Danjala Project
 
 Nama Danjala berasal dari kombinasi dua kata: "Danja" dan "Jala". "Danja" adalah kata dalam bahasa Hausa yang berarti "ide" atau "inspirasi", sedangkan "Jala" adalah kata dalam bahasa Sansekerta yang berarti "jaringan" atau "jaring". Oleh karena itu, nama Danjala membangkitkan konsep jaringan ide atau jaringan inspirasi. Nama ini sangat relevan dengan deskripsi bisnis yang melibatkan undangan digital, desain situs web, dan otomatisasi, yang semuanya membutuhkan jaringan ide dan inspirasi teknologi. Selain itu, nama Danjala memiliki bunyi yang modern dan menarik yang kemungkinan besar akan menarik bagi pelanggan di industri teknologi.
@@ -9,7 +8,6 @@ Nama Danjala berasal dari kombinasi dua kata: "Danja" dan "Jala". "Danja" adalah
 - Hosting
 - Undangan Digital
 - Optimasi Website
-
 
 ## Soon
 
@@ -29,7 +27,6 @@ Nama Danjala berasal dari kombinasi dua kata: "Danja" dan "Jala". "Danja" adalah
 
 - Design Table Purchase
 
-
 ## Tech Stack
 
 **Client:** NextJs, TailwindCSS, Flowbite
@@ -38,8 +35,8 @@ Nama Danjala berasal dari kombinasi dua kata: "Danja" dan "Jala". "Danja" adalah
 
 ## Focus
 
-**Login:** Auth API 'proses', Form Input 'proses', Midware, Soon
+**Login:** Auth API, Form Input, Midware soon, Soon
 
-**Register:** Auth API 'proses', Form Input 'proses', POST Data, Soon
+**Register:** Auth API, Form Input, POST Data, loading : Finish
 
-**Dashbiard:** Soon
+**Dashbiard:** Sidebar 'Proses'
