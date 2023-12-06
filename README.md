@@ -11,7 +11,7 @@ Nama Danjala berasal dari kombinasi dua kata: "Danja" dan "Jala". "Danja" adalah
 
 ## Soon
 
-- Design Template Website
+- Design Template Website : Soon
 
 - Design Template Hosting
 
@@ -35,7 +35,7 @@ Nama Danjala berasal dari kombinasi dua kata: "Danja" dan "Jala". "Danja" adalah
 
 ## Focus
 
-**Login:** Auth API, Form Input, Midware soon, Soon
+**Login:** Auth API, Form Input, Midware : Finish
 
 **Register:** Auth API, Form Input, POST Data, loading : Finish
 
