@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import DrawerComponents from './DrawerComponents'
 import { useSession } from "next-auth/react"
-import React, { useState } from "react"
+import React from "react"
 export const NavigationComponents = () => {
 
     const { data: session } = useSession();
@@ -11,7 +11,6 @@ export const NavigationComponents = () => {
     return (
         <>
             <nav className="bg-white border-gray-200 dark:bg-gray-900">
-              
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl py-4 px-10">
                     <Link
                         href="https://flowbite.com"

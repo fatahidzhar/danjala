@@ -39,4 +39,6 @@ Nama Danjala berasal dari kombinasi dua kata: "Danja" dan "Jala". "Danja" adalah
 
 **Register:** Auth API, Form Input, POST Data, loading : Finish
 
+**Template:** POST DATA, GET DATA, loading : PROSES
+
 **Dashbiard:** Sidebar 'Proses'

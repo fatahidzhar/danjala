@@ -1,34 +1,24 @@
 "use client"
 
-import { useSession } from "next-auth/react"
-import React, { useState } from "react"
+import React, { ReactNode } from 'react'
+import SidebarComponents from "../SidebarComponents";
+import NavBarComponents from "../NavBarComponents";
 
-const DashboardComponent = () => {
-    const { data: session } = useSession();
-    console.log({ session })
-    const [shown, setShown] = useState<boolean>(false)
-    const clickHandler = (): void => {
-        setShown(!shown)
-    }
+interface Props {
+    children: ReactNode;
+}
 
+const DashboardComponent = ({ children }: Props) => {
     return (
-        <div className="grid grid-cols-2 text-white p-4">
-            <div className="text-center">
-                <h1 className="text-black text-xl font-bold">
-                    Hi {session?.user?.user.email}!
-                </h1>
-            </div>
-            <div>
-                <p className="text-black">Protected client page</p>
-                <button
-                    className="btn bg-blue-500 hover:bg-blue-400  p-4 "
-                    onClick={clickHandler}
-                >
-                    Toggle
-                </button>
-                {shown ? (
-                    <pre className="text-black">{JSON.stringify(session, null, 2)}</pre>
-                ) : null}
+        <div className='bg-gray-100'>
+            <nav className='fixed top-0 z-50 w-full'>
+                <NavBarComponents />
+            </nav>
+            <aside className='fixed top-0 left-0 z-40 w-64 h-screen pt-20 transition-transform -translate-x-full bg-white border-r border-gray-200 sm:translate-x-0 dark:bg-gray-800 dark:border-gray-700'>
+                <SidebarComponents />
+            </aside>
+            <div className='p-4 sm:ml-64'>
+                {children}
             </div>
         </div>
     )

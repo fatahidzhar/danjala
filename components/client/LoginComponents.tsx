@@ -88,7 +88,7 @@ const LoginComponents = () => {
                 }
                 if (!res?.error) {
                     setLoading(false);
-                    router.push("/dashboard");
+                    router.push("/home");
                 }
             })
         }
